@@ -1,7 +1,5 @@
-function playGame(min, max, choice) {
-	min = Math.ceil(min);
-	max = Math.floor(max);
-	let result = Math.floor(Math.random() * (max - min + 1)) + min;
+function playGame(choice) {
+	let result = Math.floor(Math.random() * 3) + 1;
 	if (result === 1) {
 		alert("Your opponent chose rock!");
 	}
