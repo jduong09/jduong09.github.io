@@ -1,66 +1,26 @@
 <!DOCTYPE html>
 <html> 
   <head>
-    
     <meta charset="UTF-8"> 
-    
     <title> Roshambo </title>
-
-    <script src="C:\Users\jd144\OneDrive\Documents\test-suite\myscript.js"></script>
-
-    <link rel="stylesheet" href="C:\Users\jd144\OneDrive\Documents\test-suite\styles.css">
-
+    <script src="myscript.js"></script>
   </head>
   <body>
-  	<!-- Main header and first paragraph will be intro to the website: What this website is about (h1) and what the user will be doing (p) --> 
   	<header>
-  		
   		<h1> Some Ol' Fashioned Roshambo! </h1>
-  		
   		<p> Welcome to Roshambo! Better known as rock, paper, scissors; Today you will be competing against your greatest competitor yet! That's right, a computer.
   		</p>
-
     </header> 
-
-    <!-- How can we make this interactive? BUTTONS. I want to create a start button. Then that will show the different interactive buttons (rock/paper/scissor) or maybe when you click start, it will just jump down the webpage (this is easier) where the game is.  -->
     <div>
-    	
-    	<!-- <p id="demo">Start!</p> --> 
     	<button class="rock" type="button" value="rock" onclick="playGame(1,3,'rock')"> 
-    		<img id="rock" src="C:\Users\jd144\OneDrive\Documents\test-suite\rocks.png" alt="rock" width="150" height="150">
+    		<img id="rock" src="rocks.png" alt="rock" width="150" height="150">
     	</button>
-
-    	<button class="paper" type="button" value="paper" onclick="playGame(1,3, 'paper')"> 
-    		<img id="paper" src="C:\Users\jd144\OneDrive\Documents\test-suite\plane.png" alt="paper" width="150" height="150">
+    	<button class="paper" type="button" value="paper" onclick="playGame(1,3,'paper')"> 
+    		<img id="paper" src="plane.png" alt="paper" width="150" height="150">
     	</button>
-
-    	<button class="scissor" type="button" value="scissor" onclick="playGame(1,3, 'scissor')"> 
-    		<img id="scissor" src="C:\Users\jd144\OneDrive\Documents\test-suite\scissor.png" alt="scissor" width="150" height="150">
+    	<button class="scissor" type="button" value="scissor" onclick="playGame(1,3,'scissor')"> 
+    		<img id="scissor" src="scissor.png" alt="scissor" width="150" height="150">
     	</button>
-
     </div>
-
-    <!-- After the start button: we need 3 pictures (icons?) (flaticons?) of rock/paper/scissor). Tell the person viewing the webpage: "Choose wisely!"--> 
-  
-
-    <!-- following the click, I will need to run some JavaScript --> 
-    <!-- Insert JavaScript here?
-    How do we get the computer to make a selection of rock paper or scissor?
-    Under the hood: chooses a number between 1 to 3, assign rock paper or scissor to each of the numbers. After the number is chosen  => run the conditionals to check who won. If statements? Switch? -->
-
-    <!-- Run the result, and log the result to the screen.  -->
-
-    <!-- future idea: a counter at the bottom which keep tracks off the current screen's win/loss? --> 
-
-    <!-- A play again button that resets the game -->  
-
-    <!-- link to a quick survey about how to improve the game; Fine tuned to Dan --> 
-
-
-
-
-
-    <!-- is this too complicated for a one day project --> 
-
   </body>
 </html>
