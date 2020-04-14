@@ -2,8 +2,15 @@ function playGame(min, max, choice) {
 	min = Math.ceil(min);
 	max = Math.floor(max);
 	let result = Math.floor(Math.random() * (max - min + 1)) + min;
-	alert(result);
-	alert(choice);
+	if (result === 1) {
+		alert("Your opponent chose rock!");
+	}
+	else if (result === 2) {
+		alert("Your opponent chose paper!");
+	}
+	else {
+		alert("Your opponent chose scissor!");
+	}
 	
 	if (choice === "rock" && result === 1) {
 		alert("Draw! Try again!");
